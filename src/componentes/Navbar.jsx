@@ -1,12 +1,22 @@
 function Navbar() {
     return (
-        <nav className="menu">
-            <div className="itens_menu">
-                <a className="Item_menu" href="#">Cafena</a>
-                <button className= "Navbar_togler" type="button" data-bs-toggle="colapse" data-bs-targget="#menuNavbar"><span></span></button>
+        <header className="sticky-top bg-body">
+            <nav className="navbar navbar-expand-lg border-bottom">
+                <div className="container">
+                    <a className="navbar-brand-fw-bold" href="#home">Cafena</a>
 
-            </div>
-        </nav>
+                    <button className="Navbar_toggler" type="button" data-bs-toggle="colapse" data-bs-targget="#menuNavbar" Aria-controls="#menuNavbar" Aria-expanded="false" aria-label= "Abrir-menu"><span className="navbar-togller-icon"></span></button>
+
+                    <div className="colapse navbar-collapse" id="menuNavbar">
+
+                        <ul className="navbar-nav">
+                            <li className="Nav-item"></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+        </header>
     );
 }
 
