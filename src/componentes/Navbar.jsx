@@ -10,7 +10,9 @@ function Navbar() {
                     <div className="colapse navbar-collapse" id="menuNavbar">
 
                         <ul className="navbar-nav">
-                            <li className="Nav-item"></li>
+                            <li className="Nav-item">
+                                <a className="nav-link" href="home">Inicio</a>
+                            </li>
                         </ul>
 
                     </div>
