@@ -5,14 +5,31 @@ function Navbar() {
                 <div className="container">
                     <a className="navbar-brand-fw-bold" href="#home">Cafena</a>
 
-                    <button className="Navbar_toggler" type="button" data-bs-toggle="colapse" data-bs-targget="#menuNavbar" Aria-controls="#menuNavbar" Aria-expanded="false" aria-label= "Abrir-menu"><span className="navbar-togller-icon"></span></button>
+                    <button className="Navbar_toggler" type="button" data-bs-toggle="colapse" data-bs-targget="#menuNavbar" Aria-controls="#menuNavbar" Aria-expanded="false" aria-label="Abrir-menu"><span className="navbar-togller-icon"></span></button>
 
                     <div className="colapse navbar-collapse" id="menuNavbar">
 
                         <ul className="navbar-nav">
                             <li className="Nav-item">
-                                <a className="nav-link" href="home">Inicio</a>
+                                <a className="nav-link" href="#home">Inicio</a>
                             </li>
+
+                            <li className="Nav-item">
+                                <a className="nav-link" href="#about">Sobre</a>
+                            </li>
+
+                            <li className="Nav-item">
+                                <a className="nav-link" href="#menu">Menu</a>
+                            </li>
+
+                            <li className="Nav-item">
+                                <a className="nav-link" href="#reviews">Avaliaçoes</a>
+                            </li>
+
+                             <li className="Nav-item">
+                                <a className="nav-link" href="#adress">Endereço</a>
+                            </li>
+
                         </ul>
 
                     </div>
