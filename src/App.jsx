@@ -5,7 +5,6 @@ import Navbar from './componentes/Navbar'
 function App() {
   return (
     <main>
-      <Hero />
       <Navbar />
     </main>
 
