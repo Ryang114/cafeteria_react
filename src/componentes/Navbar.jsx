@@ -1,4 +1,4 @@
-
+import { Search, ShoppingCart } from "lucide-react";
 function Navbar() {
     return (
         <header className="sticky-top bg-body">
@@ -16,15 +16,15 @@ function Navbar() {
                             </li>
 
                             <li className="nav-item">
-                                <a className="nav-link" href="#about" >Sobre</a>
+                                <a className="nav-link" href="#about">Sobre</a>
                             </li>
 
                             <li className="nav-item">
-                                <a className="nav-link" href="#menu" >Menu</a>
+                                <a className="nav-link" href="#menu">Menu</a>
                             </li>
 
                             <li className="nav-item">
-                                <a className="nav-link" href="#reviews" >Avaliações</a>
+                                <a className="nav-link" href="#reviews">Avaliações</a>
                             </li>
 
                             <li className="nav-item">
@@ -33,9 +33,14 @@ function Navbar() {
                         </ul>
 
                         <div className="d-flex align-items-center gap-3">
-                            <button type="button" className=" btn btn-link p-0" aria-label="buscar">🔍</button>
+                            <button type="button" className=" btn btn-link p-0" aria-label="buscar">
+                                <Search size={22} aria-hidden="true" />
+                            </button>
 
-                            <button type="button" className="btn btn-link p-0 position-relative" aria-label="Carrinho">🛒<span className="position-absolute top-0 start-100 translate-middle badge bg-danger">2</span></button>
+                            <button type="button" className="btn btn-link p-0 position-relative" aria-label="Carrinho">
+                                <ShoppingCart size={22} aria-hidden="true" />
+                                <span className="position-absolute top-0 start-100 translate-middle badge bg-danger">2</span>
+                            </button>
                         </div>
                     </div>
                 </div>

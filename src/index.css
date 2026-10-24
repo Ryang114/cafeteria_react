@@ -1,9 +1,88 @@
 :root {
   --cafena-gold: #d3ad7f;
+  --cafena-gold-hover: #e2c197;
+  --cafena-border: #3a2f27;
+  --cafena-text: #f5ede3;
+  --cafena-text-muted: #b8a99a;
+  --cafena-bg: #14100d;
 }
 
 [data-bs-theme="dark"] {
-  --bs-body-bg: #14100d;
-  --bs-body-color: #e8dccb;
-  --bs-border-color: rgba(255, 255, 255, 0.12);
+  --bs-body-color: #f5ede3;
+  --bs-border-color: #3a2f27;
+  --bs-body-bg:#14100d;
+  --bs-body-bg-rgb:20, 16, 13;
 }
+
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+.navbar {
+  --bs-navbar-color: var(--cafena-text-muted);
+  --bs-navbar-hover-color: var(--cafena-text);
+  --bs-navbar-active-color: var(--cafena-text);
+  border-bottom: 1px solid var(--cafena-border) !important;
+}
+
+.navbar > .container {
+  padding: 16px 48px;
+}
+
+.nav_personalisada {
+  color: var(--cafena-gold);
+  text-align: left;
+}
+
+.cafena_logo {
+  font-family: "Fraunces", serif;
+  font-size: 28px;
+  font-weight: 700;
+}
+.cafena_logo:hover {
+  color: var(--cafena-gold-hover);
+}
+
+.navbar .nav-link {
+  font-size: 16px;
+  padding: 12px 4px;
+  margin: 0 16px;
+  border-bottom: 2px solid transparent;
+}
+
+.navbar .nav-link:hover {
+  border-bottom-color: var(--cafena-gold);
+}
+
+.navbar .btn-link {
+  --bs-btn-color: var(--cafena-text);
+  --bs-btn-hover-color: var(--cafena-text);
+  width: 44px;
+  height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  text-decoration: none;
+}
+
+.navbar .btn-link:hover {
+  background: #2a2119;
+}
+
+.navbar .nav-link:focus-visible,
+.navbar .btn-link:focus-visible {
+  outline: 3px solid var(--cafena-text);
+  outline-offset: 3px;
+  box-shadow: none;
+}
+
+.navbar .badge.bg-danger {
+  background-color: var(--cafena-gold) !important;
+  color: var(--cafena-bg) !important;
+  font-weight: 700;
+}
+
+
+
+
