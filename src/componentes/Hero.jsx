@@ -14,7 +14,7 @@ function Hero() {
                             O melhor café da região, {" "}
 
                             <span className="text-gold">
-                                no seu ritmo
+                                no seu ritmok
                             </span>
                         </h1>
 
