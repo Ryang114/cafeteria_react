@@ -1,0 +1,74 @@
+.hero {
+  --gold: #d3ad7f;
+  --gold-hover: #e0bf96;
+  --ink: #13131a;
+
+  padding: 4rem 0;
+  background:
+    radial-gradient(ellipse at top right, #2a1d12 0%, transparent 60%),
+    #14100d;
+}
+
+.hero .text-gold {
+  color: var(--gold);
+}
+
+.hero-eyebrow {
+  color: var(--gold);
+  letter-spacing: 0.2em;
+  font-size: 0.875rem;
+}
+
+.hero-title {
+  font-family: "Fraunces", serif;
+  font-size: clamp(2.5rem, 5.5vw, 4.5rem);
+  line-height: 1.1;
+  color: #f7efe6;
+}
+
+.hero-text {
+  font-family: "DM Sans", sans-serif;
+  color: rgba(247, 239, 230, 0.75);
+  max-width: 32rem;
+}
+
+/* Botões */
+.btn-gold {
+  background-color: var(--gold);
+  border: 1px solid var(--gold);
+  color: var(--ink);
+  font-weight: 600;
+  border-radius: 0.5rem;
+}
+.btn-gold:hover,
+.btn-gold:focus-visible {
+  background-color: var(--gold-hover);
+  border-color: var(--gold-hover);
+  color: var(--ink);
+}
+
+.btn-outline-gold {
+  background-color: transparent;
+  border: 1px solid var(--gold);
+  color: var(--gold);
+  font-weight: 600;
+  border-radius: 0.5rem;
+}
+.btn-outline-gold:hover,
+.btn-outline-gold:focus-visible {
+  background-color: var(--gold);
+  color: var(--ink);
+}
+
+/* Cartão da foto */
+.hero-photo {
+  background: radial-gradient(circle at center, #54382a 0%, #2b1f17 70%);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+  color: rgba(247, 239, 230, 0.6);
+}
+
+.hero-photo img {
+  object-fit: cover;
+  object-position: 95% center;
+}
