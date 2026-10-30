@@ -6,7 +6,8 @@ function MenuCard({ item }) {
         return ((pt - br, ({ style: "currency", Currency: BRL })
         ));
     }
-    const desconto = Math.round((1 - item.preco / preco_antigo) * 100);
+
+    const desconto = Math.round((1 - item.preco / item.preco_antigo) * 100);
 
     return (
         <div className="card menu_card h-100 p-4">
@@ -17,9 +18,12 @@ function MenuCard({ item }) {
                     <span className="badge menu-rouded-pill" tag_menu_card>-{desconto}%</span>
                 </div>
                 <div className="d-flex align-itens-baseline- gap-2 mb-3">
-
+                    <span className="preco_menu_card fs-4 fw-bold">{formatar(item.preco)}</span>
+                    <s className="menu_card_preco_antigo small">{formatar(item.preco_antigo)}</s>
                 </div>
-
+                <button btn butao_dourado w-100 py-2 mt-auto>
+                    Adicionar
+                </button>
             </div>
         </div>
 
