@@ -1,0 +1,37 @@
+.menu {
+  background: var(--cafena-bg);
+  padding: 5rem 0;
+}
+
+.titulo_menu {
+  font-family: "Fraunces", serif;
+  font-size: 2.5rem;
+  color: var(--cafena-text);
+}
+
+.subtitulo_menu {
+  color: var(--cafena-text-muted);
+}
+
+.texto_dourado {
+  color: var(--cafena-gold);
+}
+
+.menu-filter {
+  --bs-btn-padding-x: 1.1rem;
+  --bs-btn-padding-y: 0.4rem;
+  --bs-btn-font-size: 0.875rem;
+  --bs-btn-color: var(--cafena-text-muted);
+  --bs-btn-bg: transparent;
+  --bs-btn-border-color: var(--cafena-border);
+  --bs-btn-hover-color: var(--cafena-text);
+  --bs-btn-hover-bg: transparent;
+  --bs-btn-hover-border-color: var(--cafena-gold);
+  --bs-btn-active-color: var(--cafena-ink);
+  --bs-btn-active-bg: var(--cafena-gold);
+  --bs-btn-active-border-color: var(--cafena-gold);
+}
+
+.menu-filter.active {
+  font-weight: 700;
+}

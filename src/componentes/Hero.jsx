@@ -42,4 +42,4 @@ function Hero() {
     )
 };
 
-export default Hero;k
+export default Hero;
