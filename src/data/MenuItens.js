@@ -12,3 +12,4 @@ export const ItensDoMenu = [
 
     { id: 4, nome: "Café coado", categoria: "Quentes", preco: 15.99, preco_antigo: 18.00, imagem: Menu4 },
 ];
+
