@@ -1,6 +1,6 @@
-import Menu1 from '../assets/menu-1.png';
-import Menu2 from '../assets/menu-2.png';
-import Menu3 from '../assets/menu-3.png';
+import Menu1 from '../assets/Cafe_quente.png';
+import Menu2 from '../assets/Cafe_gelado.png';
+import Menu3 from '../assets/Bronie.png';
 
 export const Categorias = ["Todos", "Quentes", "Gelados", "Doces"];
 

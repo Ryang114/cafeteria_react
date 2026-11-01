@@ -1,3 +1,22 @@
+.menu-filter {
+  --bs-btn-padding-x: 1.1rem;
+  --bs-btn-padding-y: 0.4rem;
+  --bs-btn-font-size: 0.875rem;
+  --bs-btn-color: var(--cafena-text-muted);
+  --bs-btn-bg: transparent;
+  --bs-btn-border-color: var(--cafena-border);
+  --bs-btn-hover-color: var(--cafena-text);
+  --bs-btn-hover-bg: transparent;
+  --bs-btn-hover-border-color: var(--cafena-gold);
+  --bs-btn-active-color: var(--cafena-ink);
+  --bs-btn-active-bg: var(--cafena-gold);
+  --bs-btn-active-border-color: var(--cafena-gold);
+}
+
+.menu-filter.active {
+  font-weight: 700;
+}
+
 .menu {
   background: var(--cafena-bg);
   padding: 5rem 0;
@@ -17,21 +36,55 @@
   color: var(--cafena-gold);
 }
 
-.menu-filter {
-  --bs-btn-padding-x: 1.1rem;
-  --bs-btn-padding-y: 0.4rem;
-  --bs-btn-font-size: 0.875rem;
-  --bs-btn-color: var(--cafena-text-muted);
-  --bs-btn-bg: transparent;
-  --bs-btn-border-color: var(--cafena-border);
-  --bs-btn-hover-color: var(--cafena-text);
-  --bs-btn-hover-bg: transparent;
-  --bs-btn-hover-border-color: var(--cafena-gold);
-  --bs-btn-active-color: var(--cafena-ink);
-  --bs-btn-active-bg: var(--cafena-gold);
-  --bs-btn-active-border-color: var(--cafena-gold);
+.menu_card {
+  --bs-card-bg: #1c1611;
+  --bs-card-border-color: var(--cafena-border);
+  --bs-card-color: var(--cafena-text);
+  border-radius: 1.25rem;
+  transition: border-color 0.2s ease;
 }
 
-.menu-filter.active {
-  font-weight: 700;
+.menu_card:hover {
+  border-color: var(--cafena-gold);
+}
+
+.menu-card-img {
+  aspect-ratio: 2 / 1;
+  object-fit: cover;
+  background-color: #2a2119;
+}
+
+.conteudo_card {
+  flex: 1 1 auto;
+}
+
+.nome_menu_card,
+.preco_menu_card {
+  color: var(--cafena-text);
+}
+
+.tag_menu_card {
+  background-color: #2a2119;
+  color: var(--cafena-gold);
+  font-weight: 600;
+  font-size: 0.75rem;
+}
+
+.menu_card_preco_antigo {
+  color: var(--cafena-text-muted);
+}
+
+.butao_dourado {
+  background-color: var(--cafena-gold);
+  border: 1px solid var(--cafena-gold);
+  color: var(--cafena-ink);
+  font-weight: 600;
+  border-radius: 0.5rem;
+}
+
+.butao_dourado:hover,
+.butao_dourado:focus-visible {
+  background-color: var(--cafena-gold-hover);
+  border-color: var(--cafena-gold-hover);
+  color: var(--cafena-ink);
 }
