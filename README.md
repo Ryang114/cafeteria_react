@@ -102,7 +102,7 @@ O site ficará disponível em `http://localhost:5173`.
 
 - [ ] Finalizar todos os componentes seguindo o mockup desktop (1280px)
 - [ ] Tornar o layout totalmente responsivo (mobile e tablet)
-- [ ] Implementar filtros do cardápio por categoria
+- [X] Implementar filtros do cardápio por categoria
 - [ ] Carrinho de compras
 - [ ] Integração com back-end (Node.js + Express + MySQL)
 

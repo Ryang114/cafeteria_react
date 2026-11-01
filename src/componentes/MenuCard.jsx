@@ -19,7 +19,7 @@ function MenuCard({ item }) {
                     <span className="preco_menu_card fs-4 fw-bold">{formatar(item.preco)}</span>
                     <s className="menu_card_preco_antigo small">{formatar(item.preco_antigo)}</s>
                 </div>
-                <button className= "btn butao_dourado w-100 py-2 mt-auto">
+                <button type="button" className="btn butao_dourado w-100 py-2 mt-auto">
                     Adicionar
                 </button>
             </div>
