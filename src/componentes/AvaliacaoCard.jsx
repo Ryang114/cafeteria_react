@@ -7,7 +7,7 @@ function AvaliacaoCard({ item }) {
 
 
     return (
-        <div>
+        <div className="">
 
         </div>
 
