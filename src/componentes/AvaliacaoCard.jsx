@@ -7,8 +7,8 @@ function AvaliacaoCard({ item }) {
 
 
     return (
-        <div className="">
-
+        <div className="card card_avaliacao h-100 p-4">
+            div
         </div>
 
     );
