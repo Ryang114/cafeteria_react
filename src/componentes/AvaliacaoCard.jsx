@@ -8,7 +8,18 @@ function AvaliacaoCard({ item }) {
 
     return (
         <div className="card card_avaliacao h-100 p-4">
-            div
+            <div className=" avaliacao_estrelas fw-bold mb-3">
+                    {estrelas} {notaFormatada}
+            </div>
+            <p className="texto_card mb-4">
+                {item.depoimento}
+            </p>
+            <div className="d-flex justify-content-between align-itens-center">
+                <img src={item.imagem} alt={item.nome}  className="avaliacao_foto rounded-circle"/>
+                <span className="alvaliacao_nome fw-bold">
+                    {item.nome}
+                </span>
+            </div>
         </div>
 
     );
