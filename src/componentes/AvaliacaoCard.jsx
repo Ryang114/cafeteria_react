@@ -12,7 +12,7 @@ function AvaliacaoCard({ item }) {
             <p className="texto_card mb-4">
                 {item.depoimento}
             </p>
-            <div className="d-flex justify-content-between align-itens-center">
+            <div className="d-flex align-items-center gap-3">
                 <img src={item.imagem} alt={item.nome}  className="avaliacao_foto rounded-circle"/>
                 <span className="alvaliacao_nome fw-bold">
                     {item.nome}

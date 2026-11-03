@@ -1,0 +1,41 @@
+.avaliacoes {
+    background: #1c1611;
+    padding: 5rem 0;
+}
+
+.titulo_avaliacoes {
+    font-family: "Fraunces", serif;
+    font-size: 2.5rem;
+    color: var(--cafena-text);
+}
+
+.destaque_avaliacoes {
+    color: var(--cafena-gold);
+}
+
+.card_avaliacao {
+    --bs-card-bg: var(--cafena-bg);
+    --bs-card-border-color: var(--cafena-border);
+    --bs-card-color: var(--cafena-text);
+    border-radius: 1.25rem;
+}
+
+.avaliacao_estrelas {
+    color: var(--cafena-gold);
+}
+
+.texto_card {
+    color: var(--cafena-text-muted);
+}
+
+.avaliacao_foto {
+    width: 3.5rem;
+    height: 3.5rem;
+    object-fit: cover;
+    flex-shrink: 0;
+    background-color: #2a2119;
+}
+
+.alvaliacao_nome {
+    color: var(--cafena-text);
+}
