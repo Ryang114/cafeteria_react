@@ -12,9 +12,6 @@ function Avalicoes() {
                         </span>
                     </h2>
                 </div>
-                <div className="row g-4">
-                    {Clientes.Map}
-                </div>
             </div>
         </section>
 
